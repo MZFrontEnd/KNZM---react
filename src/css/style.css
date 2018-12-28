@@ -1,0 +1,216 @@
+* {
+  font-family: "Lato", sans-serif; }
+
+.categorySection {
+  min-height: 100vh;
+  width: 70vw;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between; }
+
+.categorySection__row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch; }
+
+.category__item {
+  position: relative;
+  overflow: hidden;
+  height: 80vh;
+  width: 100%;
+  box-shadow: -5px -5px 10px #eee;
+  margin: 10px;
+  border: 1px solid #eee; }
+
+.category__item--img {
+  position: absolute;
+  height: 60vh;
+  width: 100%;
+  background: url(../img/partnerImg.jpg) center;
+  background-size: cover; }
+
+.category__item--title {
+  position: absolute;
+  height: 20vh;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.541);
+  color: #000;
+  word-wrap: break-word;
+  text-transform: uppercase;
+  padding: 10px 10px;
+  font-size: 32px;
+  text-align: center; }
+
+.category__item--btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #0a0227;
+  font-size: 20px;
+  border: 2px solid white;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  outline: none; }
+
+.container {
+  overflow: hidden;
+  position: relative;
+  width: 100vw; }
+
+.mainHeaderLogo {
+  position: relative;
+  top: 10vh;
+  left: 0;
+  width: 100%;
+  height: 40vh;
+  color: #000;
+  background: white; }
+
+.contactTitle {
+  background: transparent;
+  display: inline-block;
+  padding: 10px;
+  color: rgba(51, 51, 51, 0.493);
+  margin: auto auto 50px;
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  width: 100%; }
+
+.siteMap__list--contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-transform: none;
+  width: 70%;
+  margin: 50px auto; }
+
+.font__contact {
+  display: inline-block;
+  padding: 20px;
+  font-size: 1.2em;
+  color: #7c0505;
+  width: 100px; }
+
+.siteMapContact__item--address {
+  display: flex; }
+
+.siteMap__list--contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-basis: 100%;
+  margin: auto; }
+
+.footer__txt--copyRight {
+  /* position: absolute;
+  bottom: 0; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  width: 100%;
+  font-weight: 300;
+  text-align: center;
+  line-height: 2em;
+  border-top: 2px solid white; }
+
+.footerSection {
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  background: black;
+  color: #eee;
+  opacity: .7; }
+
+.siteMap__item {
+  list-style-type: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 2em; }
+
+.siteMapContact__item {
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 2em; }
+
+.siteMapContact__txt {
+  word-wrap: break-word; }
+
+.contactSection {
+  background: #eee;
+  padding: 50px; }
+
+@media (orientation: landscape) {
+  .menuSection {
+    z-index: 1;
+    background: #fff; }
+
+  .categorySection {
+    padding-top: 20vh;
+    min-height: 100vh;
+    width: 70vw;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between; }
+
+  .categorySection__row {
+    display: flex;
+    flex-direction: row; }
+
+  .category__item {
+    height: 60vh;
+    width: 20vw;
+    margin: 30px 10px;
+    border-radius: 7px;
+    border: 2px solid white;
+    cursor: pointer; }
+    .category__item:hover > .category__item--img {
+      transform: scale(1.1); }
+    .category__item:hover > .category__item--title {
+      color: black; }
+    .category__item:hover > .category__item--btn {
+      background: #0a0227; }
+
+  .category__item--img {
+    transition: all .3s ease-in-out; }
+
+  .category__item--title {
+    position: absolute;
+    height: 30vh;
+    background: rgba(255, 255, 255, 0.541);
+    color: rgba(0, 0, 0, 0.75);
+    word-wrap: break-word;
+    text-transform: uppercase;
+    padding: 50px 10px;
+    font-size: 32px;
+    text-align: center;
+    border-bottom: 2px solid white;
+    transition: all 1s ease-in-out; }
+
+  .category__item--btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: rgba(10, 2, 39, 0.753);
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all .7s ease-in-out; } }
+
+/*# sourceMappingURL=style.css.map */

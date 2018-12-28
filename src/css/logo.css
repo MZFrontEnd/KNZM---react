@@ -1,0 +1,114 @@
+.mainHeaderLogo__logo {
+  background: rgba(255, 255, 255, 0.527);
+  position: absolute;
+  top: 15vh;
+  left: 50vw;
+  transform: translateX(-50%);
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+  margin: auto auto; }
+
+.mainHeaderLogo__logo.off {
+  display: none; }
+
+.logo__img {
+  width: 10vh;
+  height: 10vh; }
+
+.logo__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: normal; }
+
+.mainHeader__logoBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 30px 20px;
+  width: 80%;
+  height: 100%; }
+
+.mainHeader__logoBox--logo {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 100px;
+  margin: auto; }
+
+.logo__title--row {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal; }
+
+.darkBlueBox {
+  height: 20px;
+  width: 20px;
+  background: #0a0927;
+  margin: 2px;
+  color: #fff;
+  font-size: 10px;
+  padding: 2px;
+  transition: all .3s ease-in-out; }
+  .darkBlueBox:hover {
+    opacity: .5; }
+
+.redCircle {
+  width: 10px;
+  height: 10px;
+  background: #c90617;
+  border-radius: 50%;
+  border: 1px solid #0a0927; }
+
+@media (orientation: landscape) {
+  .mainHeaderLogo__logo {
+    height: 80vh;
+    left: 3vh;
+    transform: none;
+    justify-content: start; }
+
+  .mainHeader__logoBox--logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 170px;
+    width: 170px;
+    margin: auto; }
+
+  .darkBlueBox {
+    height: 30px;
+    width: 30px;
+    background: #0a0927;
+    margin: 5px;
+    color: #fff;
+    font-size: 20px;
+    padding: 2px;
+    transition: all .3s ease-in-out; }
+    .darkBlueBox:hover {
+      opacity: .5; }
+
+  .redCircle {
+    width: 20px;
+    height: 20px;
+    background: #c90617;
+    border-radius: 50%;
+    border: 2px solid #0a0927; }
+
+  .logo__title {
+    padding: 30px;
+    background: rgba(10, 9, 39, 0.5); }
+
+  .logo__title--row {
+    font-weight: normal;
+    line-height: 2;
+    color: white; } }
+
+/*# sourceMappingURL=logo.css.map */
